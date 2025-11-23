@@ -14,6 +14,7 @@ on:
     branches: [ master ]
   schedule:
     - cron: "32 8 * * 0"  # every Sunday at 8:32 UTC (3:32 AM EST)
+  workflow_dispatch:
 
 permissions:
   contents: read
