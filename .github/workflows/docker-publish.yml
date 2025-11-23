@@ -21,7 +21,7 @@ permissions:
   packages: write
 
 env:
-  DOCKERHUB_REPO: isaudits/gophish
+  DOCKERHUB_REPO: isaudits/gophish-evilginx
   DOCKERHUB_USERNAME: ${{ vars.DOCKERHUB_USERNAME }}
   DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
   GHCR_REPO: ghcr.io/${{ github.repository }}
